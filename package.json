@@ -1,0 +1,42 @@
+{
+	"name": "synix-discord-bot",
+	"version": "1.0.7",
+	"description": "Team Synix Discord Bot",
+	"funding": "https://teamsynix.com",
+	"types": "./typings.d.ts",
+	"main": "bot.js",
+	"scripts": {
+		"start": "node bot.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/teamsynix/Team-Synix-Bot.git"
+	},
+	"keywords": [
+		"discord-js"
+	],
+	"author": {
+		"name": "Dennis",
+		"url": "https://github.com/mrdennis1212",
+		"email": "dev@teamsynix.org"
+	},
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/teamsynix/Team-Synix-Bot/issues"
+	},
+	"homepage": "https://github.com/teamsynix/Team-Synix-Bot#readme",
+	"dependencies": {
+		"@discordjs/rest": "^1.0.0",
+		"cron": "^2.1.0",
+		"discord-api-types": "^0.37.17",
+		"discord.js": "^14.6.0",
+		"dotenv": "^16.0.3",
+		"jest": "^29.3.1",
+		"log-timestamp": "^0.3.0",
+		"moment": "^2.29.4",
+		"mongoose": "^6.7.3"
+	},
+	"devDependencies": {
+		"eslint": "^8.23.0"
+	}
+}
